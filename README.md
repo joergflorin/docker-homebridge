@@ -1,15 +1,23 @@
-# docker
+# homebridge
 
-Docker service definitions for docker-compose.
+Docker service definitions for homebridge server.
 
-To update a docker container change to the desired sub directory and run following command:
+Create a subdirectory `homebridge` for storing config data and run following command in this directory: 
 
 ```
 docker-compose up -d
 ```
 
-Some compose definition folders contains an install script to use an `env.txt` file with environment definitions:
+Copy preinstalled Modules to `~/docker/homebridge/homebridge/node_modules`
 
-```
-./install.sh
-```
+Auth file in `~/docker/homebridge/homebridge/auth.json`
+
+Configuration file in `~/docker/homebridge/homebridge/config.json`
+
+Installed Plugins:
+
+- Homebridge Fritz Platform (homebridge-fritz-platform)
+- Homebridge RPi (homebridge-rpi)
+- Homebridge WoL (homebridge-wol)
+
+see https://hub.docker.com/r/oznu/homebridge
