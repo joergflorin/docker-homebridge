@@ -14,10 +14,4 @@ Auth file in `~/docker/homebridge/homebridge/auth.json`
 
 Configuration file in `~/docker/homebridge/homebridge/config.json`
 
-Installed Plugins:
-
-- Homebridge Fritz Platform (homebridge-fritz-platform)
-- Homebridge RPi (homebridge-rpi)
-- Homebridge WoL (homebridge-wol)
-
 see https://hub.docker.com/r/oznu/homebridge
