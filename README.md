@@ -1,4 +1,4 @@
-# homebridge
+# docker-homebridge
 
 Docker service definitions for homebridge server.
 
